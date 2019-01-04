@@ -1,0 +1,41 @@
+<resources>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="spinnerStyle">@style/Widget.App.Spinner</item>
+        <item name="android:spinnerStyle">@style/Widget.App.Spinner</item>
+        <item name="android:itemBackground">@color/white</item>
+        <item name="android:dropDownListViewStyle">@style/spinner_style</item>
+    </style>
+
+    <style name="spinner_style" parent="Widget.AppCompat.ListView.DropDown">
+        <item name="android:divider">@color/colorPrimaryDark</item>
+        <item name="android:dividerHeight">0.8dp</item>
+    </style>
+
+    <style name="Widget.App.Spinner" parent="@style/Widget.AppCompat.Spinner">
+        <item name="overlapAnchor">true</item>
+        <item name="android:background">@drawable/spinner_bg</item>
+
+    </style>
+
+    <style name="TextLabel" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/grey_700</item>
+        <item name="android:textSize">14sp</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+
+        <item name="colorControlNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
+
+
+        <item name="android:colorActivatedHighlight">@color/grey_700</item>
+    </style>
+
+</resources>

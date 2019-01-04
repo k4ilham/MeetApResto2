@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DetailMenuActivity">
+
+    <ImageView android:layout_width="match_parent" android:layout_height="200dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitXY"
+        android:id="@+id/img_detail"
+        android:contentDescription="@string/todo" />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:id="@+id/txtNamaMenuDetail"
+        android:text="@string/namaMenu"
+        android:layout_below="@id/img_detail"
+        android:textAlignment="center"
+        android:layout_marginTop="11dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDescriptionDetail"
+        android:text="@string/descriptionMenu"
+        android:layout_below="@id/txtNamaMenuDetail"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHargaDetail"
+        android:text="@string/hargaMenu"
+        android:layout_below="@id/txtDescriptionDetail"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

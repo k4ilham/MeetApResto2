@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MeetApResto</string>
+    <string name="new_order">New Order</string>
+    <string name="all_order">All Order</string>
+    <string name="insert_menu">Insert Menu</string>
+    <string name="todo">TODO</string>
+    <string name="namaMenu">Nama Menu</string>
+    <string name="descriptionMenu">Deskripsi Menu</string>
+    <string name="hargaMenu">Harga Menu</string>
+    <string name="on_development">Sedang Develop</string>
+    <string name="all_permission_not_granted">Permission tidak disetujui</string>
+    <string name="all_permission_granted">Permission telah tersetujui</string>
+    <string name="write_external_permission_not_granted">pembuatan permission eksternal tidak disetujui</string>
+    <string name="read_external_permission_not_granted">pembacaan permission eksternal tidak disetujui</string>
+    <string name="camera_permission_not_granted">Permission Kamera tidak disetujui</string>
+    <string name="please_wait_onprocess">Sedang Proses</string>
+    <string name="no_image">no image</string>
+    <string name="rp">Rp.</string>
+    <string name="pesan">Pesan</string>
+    <string name="save">Save</string>
+    <string name="load_from_uri">load Url</string>
+    <string name="convert_uri_to_file">Uri to File</string>
+    <string name="convert_uri_to_bitmap">Uri to Bitmap</string>
+</resources>

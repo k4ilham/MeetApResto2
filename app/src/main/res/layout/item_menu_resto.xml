@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    card_view:cardBackgroundColor="@color/white"
+    card_view:cardCornerRadius="8dp"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivMenu"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:contentDescription="@string/todo"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher" />
+
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivMenu"
+            android:layout_marginStart="4dp"
+            android:textColor="@color/teal_800"
+            android:textSize="24sp"
+            tools:text="SOTO BETAWI" />
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvName"
+            android:layout_toEndOf="@id/Rp"
+            android:textColor="@color/blue_A700"
+            android:textSize="20sp"
+            tools:text="10000" />
+
+        <TextView
+            android:id="@+id/Rp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvName"
+            android:layout_marginStart="4dp"
+            android:text="@string/rp"
+            android:textColor="@color/blue_A700"
+            android:textSize="20sp" />
+
+
+        <android.support.v7.widget.AppCompatButton
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/ivMenu"
+            android:layout_alignEnd="@+id/ivMenu"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:text="@string/pesan" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
