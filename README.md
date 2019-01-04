@@ -12,7 +12,7 @@ Berikut langkah-langkahnya secara singkat:
 6. Setelah selesai fork, maka repository akan masuk ke daftar repo milik anda.
 
 ----
-## Time to GO CODE ;)
+## Mari Mulai Berkontribusi ;)
 
 NB: gunakan `git --help` untuk melihat perintah-perintah git lainnya.
 
