@@ -4,7 +4,7 @@ Pembelajaran pada meetAp untuk membuat aplikasi resto menggunakan java
 ## Cara Berkontribusi
 Berikut langkah-langkahnya secara singkat:
 
-1. Fork it!
+1. Tekan icon Fork
 2. Buatlah *branch* fitur baru: `git checkout -b namabranchyangdiinginkan`
 3. *Commit* perubahannya: `git commit -am 'Add nambah beberapa fitur'`
 4. *Push* ke branch di *remote*: `git push origin namabranchyangdiinginkan`
@@ -71,5 +71,4 @@ NB: gunakan `git --help` untuk melihat perintah-perintah git lainnya.
 
         git push origin sample-project
 
-11. Setelah di push, kita akan melakukan pull request dan membandingkan perubahan yang telah anda lakukan terhadap repo pusat. Anda juga bisa menyisipkan pesan untuk memberitahukan developer pemilik repo pusat tentang apa yang anda lakukan. Setelah yakin terhadap perubahan yang telah anda lakukan, silahkan pilih create pull request dan menunggu tanggapan dari pemilik repo pusat. Lebih lengkapnya bisa anda lihat di tag screenshot.
-
+11. Setelah di push, kita akan melakukan pull request dan membandingkan perubahan yang telah anda lakukan terhadap repo pusat. Anda juga bisa menyisipkan pesan untuk memberitahukan developer pemilik repo pusat tentang apa yang anda lakukan. Setelah yakin terhadap perubahan yang telah anda lakukan, silahkan pilih create pull request dan menunggu tanggapan dari pemilik repo pusat.
